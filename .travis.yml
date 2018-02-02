@@ -8,4 +8,4 @@ addons:
         - python3
         - libstdc++-4.8-dev
 install: true
-script: ./critic test
+#script: ./critic test
