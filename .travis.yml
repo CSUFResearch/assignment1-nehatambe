@@ -9,4 +9,4 @@ addons:
         - libstdc++-4.8-dev
 install: true
 #script: ./critic test
-script: make
+script: ./configure && make && make test
