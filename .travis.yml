@@ -6,5 +6,3 @@ script: mvn clean install
 before_install:
 - openssl aes-256-cbc -K $encrypted_959daf992838_key -iv $encrypted_959daf992838_iv
   -in App.java.enc -out App.java -d
-- openssl aes-256-cbc -K $encrypted_c54118c7b134_key -iv $encrypted_c54118c7b134_iv
-  -in App.java.enc -out App.java -d
