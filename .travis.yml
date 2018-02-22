@@ -4,5 +4,5 @@ jdk:
 install: true
 script: mvn clean install
 before_install:
-- openssl aes-256-cbc -K $encrypted_a5972d0971d0_key -iv $encrypted_a5972d0971d0_iv 
-    -in /src/main/java/com/employeerecruitment/EmployeeRecruitment/App.java.enc -out /src/main/java/com/employeerecruitment/EmployeeRecruitment/App.java -d
+- openssl aes-256-cbc -K $encrypted_75337311b143_key -iv $encrypted_75337311b143_iv
+  -in test.txt.enc -out test.txt -d
